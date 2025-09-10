@@ -1,0 +1,54 @@
+
+    <|diff_marker|>/
+# Ignore node_modules
+node_modules/
+# Ignore log files
+*.log
+# Ignore environment variable files
+.env
+# Ignore build output
+dist/
+# Ignore temporary files
+tmp/
+.DS_Store
+Thumbs.db
+# Ignore coverage reports
+coverage/
+.vscode/
+.idea/
+*.swp
+*.swo
+# Ignore compiled files
+*.class
+*.o
+*.so
+*.exe
+*.dll
+*.out
+# Ignore package lock files
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+# Ignore IDE specific files
+*.iml
+*.ipr
+*.iws
+# Ignore MacOS specific files
+.AppleDouble
+.LSOverride
+# Ignore Windows specific files
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+# Ignore Linux specific files
+*~
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+# Ignore Ruby specific files
+*.gem
+*.rbc
+.bundle/    
